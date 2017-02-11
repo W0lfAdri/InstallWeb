@@ -2,7 +2,7 @@
 echo "Se va a proceder a descargar la última versión de Wordpress"
 wget https://wordpress.org/latest.zip
 echo "Se debe instalar lo necesario"
-apt-get install apache2 mysql-server mysql-client zenity
+apt-get install apache2 mysql-server mysql-client
 echo "Se debe haber instalado con normalidad"
 echo "Moviendo el archivo descargado a /var/www/html"
 mv latest.zip /var/www/html
