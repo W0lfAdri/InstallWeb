@@ -19,7 +19,7 @@ cd
 touch sql.txt
 echo "¿Qué nombre quiere ponerle a la base de datos?"
 read basededatos
-echo "¿Qué nombre quiere ponerle al usuario en la base de datos?")
+echo "¿Qué nombre quiere ponerle al usuario en la base de datos?"
 read usuariobase
 echo "¿Qué contraseña quiere ponerle al usuario de la base de datos? (Lo que escriba no se verá en pantalla)"
 read passuserbase
